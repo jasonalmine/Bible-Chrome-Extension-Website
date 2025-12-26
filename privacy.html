@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy Policy for Bible Verse New Tab Chrome Extension">
+  <title>Privacy Policy - Bible Verse New Tab</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/styles.css">
+  <style>
+    .privacy-page {
+      padding: var(--space-4xl) 0;
+      min-height: 100vh;
+    }
+    .privacy-page .container {
+      max-width: 800px;
+    }
+    .privacy-page h1 {
+      font-family: var(--font-heading);
+      font-size: clamp(2rem, 5vw, 3rem);
+      color: var(--color-primary);
+      margin-bottom: var(--space-lg);
+    }
+    .privacy-page h2 {
+      font-family: var(--font-heading);
+      font-size: 1.5rem;
+      color: var(--color-primary);
+      margin-top: var(--space-2xl);
+      margin-bottom: var(--space-md);
+    }
+    .privacy-page p, .privacy-page li {
+      color: var(--color-text);
+      line-height: 1.8;
+      margin-bottom: var(--space-md);
+    }
+    .privacy-page ul {
+      margin-left: var(--space-xl);
+      margin-bottom: var(--space-lg);
+    }
+    .privacy-page li {
+      margin-bottom: var(--space-sm);
+    }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-sm);
+      margin-bottom: var(--space-2xl);
+      color: var(--color-text-muted);
+    }
+    .back-link:hover {
+      color: var(--color-primary);
+    }
+    .last-updated {
+      color: var(--color-text-muted);
+      font-size: 0.875rem;
+      margin-bottom: var(--space-2xl);
+    }
+  </style>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+</head>
+<body>
+  <main class="privacy-page">
+    <div class="container">
+      <a href="/" class="back-link">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M12 4l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Back to Home
+      </a>
+
+      <h1>Privacy Policy</h1>
+      <p class="last-updated">Last updated: December 2024</p>
+
+      <p>Bible Verse New Tab ("the Extension") is committed to protecting your privacy. This Privacy Policy explains how we handle your information.</p>
+
+      <h2>Information We Do NOT Collect</h2>
+      <p>We believe in minimal data collection. The Extension does not collect, store, or transmit:</p>
+      <ul>
+        <li>Personal identification information</li>
+        <li>Browsing history or habits</li>
+        <li>IP addresses</li>
+        <li>Device identifiers</li>
+        <li>Analytics or usage data</li>
+        <li>Cookies or tracking pixels</li>
+      </ul>
+
+      <h2>Local Storage</h2>
+      <p>The Extension stores the following data locally on your device using Chrome's storage API:</p>
+      <ul>
+        <li><strong>Settings preferences</strong> - Your chosen translation, theme, and display options</li>
+        <li><strong>Favorite verses</strong> - Verses you choose to save</li>
+        <li><strong>Reading streak data</strong> - Your daily reading progress</li>
+        <li><strong>Custom backgrounds</strong> - Images you upload (stored in IndexedDB)</li>
+      </ul>
+      <p>This data never leaves your device and is not accessible to us or any third party.</p>
+
+      <h2>Network Requests</h2>
+      <p>The Extension makes the following network requests:</p>
+      <ul>
+        <li><strong>ESV.org API</strong> - To fetch Bible verse text (limited to 3 requests per day)</li>
+        <li><strong>Unsplash API</strong> (via our backend) - To fetch background images</li>
+      </ul>
+      <p>These requests do not include any personal information and are made solely to provide the extension's core functionality.</p>
+
+      <h2>Third-Party Services</h2>
+      <p>When you use the "Interpret with AI" feature, you are redirected to ChatGPT (openai.com). This action is initiated by you, and any data you share with ChatGPT is subject to OpenAI's privacy policy.</p>
+
+      <h2>Data Security</h2>
+      <p>All your data is stored locally on your device using Chrome's built-in storage mechanisms, which are encrypted and secured by your browser.</p>
+
+      <h2>Children's Privacy</h2>
+      <p>The Extension does not knowingly collect any information from anyone, including children under 13 years of age.</p>
+
+      <h2>Open Source</h2>
+      <p>The Extension is open source. You can review the code on <a href="https://github.com/jasonalmine/Bible-Chrome-Extension" target="_blank" rel="noopener noreferrer">GitHub</a> to verify our privacy practices.</p>
+
+      <h2>Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date.</p>
+
+      <h2>Contact Us</h2>
+      <p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:support@example.com">support@example.com</a>.</p>
+    </div>
+  </main>
+</body>
+</html>
